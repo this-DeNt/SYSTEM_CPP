@@ -1,12 +1,21 @@
 ﻿#include <windows.h> 
 #include <tchar.h> 
+#include <iostream>
 
 INT WINAPI _tWinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPTSTR lpszCmdLine, int nCmdShow)
 {
-	char resume[100] = "Eto pizda naxui\0";
-	for (char* i = resume; i != "\0"; ++i) {
+	
+	TCHAR resume[100] = TEXT("My resume bomba prosto ya vaxui");
 
-		MessageBox( 0, TEXT("Реализация алгоритма программы непосредственно в функции WinMain"), TEXT("Окно сообщения"), MB_OK | MB_ICONINFORMATION);
+	INT resumeLen = _tcsclen(resume);
+
+	for (size_t i = 0; i < 3; ++i) {
+
+		TCHAR buffer[100];
+		for (size_t j = 0; j < (3 - i) / resumeLen; ++j) {
+
+			buffer
+		}
 	}
 	return 0;
 }	
