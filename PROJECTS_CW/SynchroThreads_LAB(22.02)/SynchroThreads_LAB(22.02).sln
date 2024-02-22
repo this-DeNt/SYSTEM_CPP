@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SynchroThreads_LAB(22.02)", "SynchroThreads_LAB(22.02)\SynchroThreads_LAB(22.02).vcxproj", "{CE444216-7F11-4E32-B819-8128632A5D59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE444216-7F11-4E32-B819-8128632A5D59}.Debug|x64.ActiveCfg = Debug|x64
+		{CE444216-7F11-4E32-B819-8128632A5D59}.Debug|x64.Build.0 = Debug|x64
+		{CE444216-7F11-4E32-B819-8128632A5D59}.Debug|x86.ActiveCfg = Debug|Win32
+		{CE444216-7F11-4E32-B819-8128632A5D59}.Debug|x86.Build.0 = Debug|Win32
+		{CE444216-7F11-4E32-B819-8128632A5D59}.Release|x64.ActiveCfg = Release|x64
+		{CE444216-7F11-4E32-B819-8128632A5D59}.Release|x64.Build.0 = Release|x64
+		{CE444216-7F11-4E32-B819-8128632A5D59}.Release|x86.ActiveCfg = Release|Win32
+		{CE444216-7F11-4E32-B819-8128632A5D59}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65B9C98C-CD50-46FD-92CD-2B12D02270B9}
+	EndGlobalSection
+EndGlobal
